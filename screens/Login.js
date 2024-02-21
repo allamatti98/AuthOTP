@@ -1,12 +1,12 @@
-import React, { usestate } from "react";
-import { View, Text, TextInput, Touchable0pacity } from "react-native";
+import React, { useState } from "react";
+import { View, Text, TextInput, TouchableOpacity } from "react-native";
 import auth from "@react-native-firebase/auth";
 import firestore from "@react-native-firebase/firestore";
 import { useNavigation } from "@react-navigation/native";
 
 export default function Login() {
   const [phoneNumber, setPhoneNumber] = useState("");
-  const [code, setCode] = usestate("");
+  const [code, setCode] = useState("");
   const [confirm, setConfirm] = useState (null);
   const navigation = useNavigation () ;
 
@@ -83,7 +83,7 @@ export default function Login() {
                 alignItems: "center",
               }}
               >
-                <Text style={{ color: "white", fontsize: 22, fontweight: "bold" }}>
+                <Text style={{ color: "white", fontSize: 22, fontWeight: "bold" }}>
                 Send Code
                 </Text>
               </TouchableOpacity>
