@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "108050897078",
+    "project_id": "authotp-8df10",
+    "storage_bucket": "authotp-8df10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108050897078:android:e9e420405624bc0877ee17",
+        "android_client_info": {
+          "package_name": "com.allamatti98.AuthOTP"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7uHuyuG7J7INcEnqTt-nUh85wjgBV4R0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
